@@ -1,9 +1,9 @@
-var url	 		= require('url')
-var path 		= require('path')
-var fs 			= require('fs')					//FILESYSTEM				
-var util 		= require('util')
+var url = require('url')
+var path = require('path')
+var fs = require('fs')					
+var util = require('util')
 /********************************************************************************************/
-var jongani 	= {}
+var jongani = {}
 
 jongani.config 	= require('./config')
 jongani.error = false;
